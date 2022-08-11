@@ -1,0 +1,55 @@
+.EstilosListaPeliculas {
+   list-style: none;
+   font-size: 25px;
+}
+
+.EstilosImagenPelicula {
+    border-radius: 10px;
+    width: 230px;
+    height: 345px;
+}
+
+.EstilosImagenPelicula:hover {
+    opacity: 0.7;
+}
+
+.EstilosListaGeneral {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,230px);
+    gap: 25px;
+    padding: 40px;
+    justify-content: center;
+}
+
+.TituloPaginaPrincipal{
+    text-align: center;
+    color: lightgreen;
+    text-shadow: 0 0 20px;
+}
+
+.detalleCadaMovie{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.col {
+    max-width: 400px;
+    margin: 15px;
+}
+
+.movieImage {
+    border-radius: 10px;
+}
+
+.overviewMovie {
+    font-size: 20px;
+}
+
+.btnPuntuador {
+    padding: 10px 40px;
+    color: black;
+    font-size: 20px;
+    border: solid 3px black;
+    margin-top: 5px;
+}
